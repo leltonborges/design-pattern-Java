@@ -5,8 +5,26 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="3b4f6ca9-4a5c-4a65-8367-0bf5fc5eb5fa" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.gradle/7.2/executionHistory/executionHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/7.2/executionHistory/executionHistory.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/7.2/executionHistory/executionHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/7.2/executionHistory/executionHistory.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/7.2/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/7.2/fileHashes/fileHashes.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/7.2/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/7.2/fileHashes/fileHashes.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/7.2/fileHashes/resourceHashesCache.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/7.2/fileHashes/resourceHashesCache.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/org/com/db/TestDescontos.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/org/com/db/TestDescontos.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/org/com/db/desconto/CalculadoraDeDescontos.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/org/com/db/desconto/CalculadoraDeDescontos.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/org/com/db/desconto/Desconto.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/org/com/db/desconto/Desconto.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/org/com/db/desconto/DescontoParaComprasAcimaDe500.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/org/com/db/desconto/DescontoParaComprasAcimaDe500.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/org/com/db/desconto/DescontoParaMaisDeCincoItens.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/org/com/db/desconto/DescontoParaMaisDeCincoItens.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/org/com/db/desconto/SemDesconto.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/org/com/db/desconto/SemDesconto.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/tmp/compileJava/previous-compilation-data.bin" beforeDir="false" afterPath="$PROJECT_DIR$/build/tmp/compileJava/previous-compilation-data.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/com/db/TestDescontos.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/com/db/TestDescontos.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/org/com/db/desconto/CalculadoraDeDescontos.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/com/db/desconto/CalculadoraDeDescontos.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/com/db/desconto/Desconto.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/com/db/desconto/Desconto.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/com/db/desconto/DescontoParaComprasAcimaDe500.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/com/db/desconto/DescontoParaComprasAcimaDe500.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/com/db/desconto/DescontoParaMaisDeCincoItens.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/com/db/desconto/DescontoParaMaisDeCincoItens.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/com/db/desconto/SemDesconto.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/com/db/desconto/SemDesconto.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -30,6 +48,14 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitSEFilterConfiguration">
+    <file-type-list>
+      <filtered-out-file-type name="LOCAL_BRANCH" />
+      <filtered-out-file-type name="REMOTE_BRANCH" />
+      <filtered-out-file-type name="TAG" />
+      <filtered-out-file-type name="COMMIT_BY_MESSAGE" />
+    </file-type-list>
   </component>
   <component name="MacroExpansionManager">
     <option name="directoryName" value="9k53k8q1" />
@@ -127,7 +153,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1643641161084</updated>
-      <workItem from="1643641164982" duration="5332000" />
+      <workItem from="1643641164982" duration="8865000" />
     </task>
     <servers />
   </component>
