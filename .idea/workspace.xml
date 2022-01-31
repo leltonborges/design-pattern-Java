@@ -5,13 +5,27 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="3b4f6ca9-4a5c-4a65-8367-0bf5fc5eb5fa" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/com/db/imposto/TipoImposto.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/classes/java/main/org/com/db/imposto/ICMS.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/classes/java/main/org/com/db/imposto/ISS.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/classes/java/main/org/com/db/imposto/Imposto.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/com/db/imposto/ICMS.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/com/db/imposto/ISS.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/com/db/imposto/Imposto.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/7.2/executionHistory/executionHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/7.2/executionHistory/executionHistory.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/7.2/executionHistory/executionHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/7.2/executionHistory/executionHistory.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/7.2/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/7.2/fileHashes/fileHashes.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/7.2/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/7.2/fileHashes/fileHashes.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/7.2/fileHashes/resourceHashesCache.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/7.2/fileHashes/resourceHashesCache.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/org/com/db/TestImpostos.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/org/com/db/TestImpostos.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/org/com/db/imposto/CalculadoraDeImposto$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/org/com/db/imposto/CalculadoraDeImposto.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/org/com/db/imposto/CalculadoraDeImposto.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/org/com/db/imposto/TipoImposto.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/tmp/compileJava/previous-compilation-data.bin" beforeDir="false" afterPath="$PROJECT_DIR$/build/tmp/compileJava/previous-compilation-data.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/com/db/TestImpostos.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/com/db/TestImpostos.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/com/db/imposto/CalculadoraDeImposto.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/com/db/imposto/CalculadoraDeImposto.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/com/db/imposto/TipoImposto.java" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -29,6 +43,7 @@
         <option value="Swagger" />
         <option value="Enum" />
         <option value="Class" />
+        <option value="Interface" />
       </list>
     </option>
   </component>
@@ -65,6 +80,9 @@
   </component>
   <component name="RecentsManager">
     <key name="CreateClassDialog.RecentsKey">
+      <recent name="org.com.db.imposto" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="org.com.db.imposto" />
     </key>
   </component>
@@ -112,7 +130,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1643641161084</updated>
-      <workItem from="1643641164982" duration="1691000" />
+      <workItem from="1643641164982" duration="2733000" />
     </task>
     <servers />
   </component>
