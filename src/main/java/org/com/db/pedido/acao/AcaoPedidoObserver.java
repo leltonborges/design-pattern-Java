@@ -2,7 +2,6 @@ package org.com.db.pedido.acao;
 
 import org.com.db.pedido.Pedido;
 
-@FunctionalInterface
-public interface AcaoParaGerarPedido {
+public interface AcaoPedidoObserver {
     void executeAction(Pedido pedido);
 }

@@ -2,7 +2,7 @@ package org.com.db.pedido.acao;
 
 import org.com.db.pedido.Pedido;
 
-public class SalvarPedidoNoBD implements AcaoParaGerarPedido{
+public class SalvarPedidoNoBDObserver implements AcaoPedidoObserver {
 
     @Override
     public void executeAction(Pedido pedido){

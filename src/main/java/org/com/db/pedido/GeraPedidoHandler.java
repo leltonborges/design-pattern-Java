@@ -1,16 +1,16 @@
 package org.com.db.pedido;
 
 import org.com.db.orcamento.Orcamento;
-import org.com.db.pedido.acao.AcaoParaGerarPedido;
+import org.com.db.pedido.acao.AcaoPedidoObserver;
 
 import java.time.LocalDateTime;
 import java.util.List;
 
 public class GeraPedidoHandler {
 
-    private List<AcaoParaGerarPedido> acoes;
+    private List<AcaoPedidoObserver> acoes;
 
-    public GeraPedidoHandler(List<AcaoParaGerarPedido> acoes) {
+    public GeraPedidoHandler(List<AcaoPedidoObserver> acoes) {
         this.acoes = acoes;
     }
 
