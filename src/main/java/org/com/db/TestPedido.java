@@ -1,20 +1,17 @@
 package org.com.db;
 
-import org.com.db.orcamento.Orcamento;
-import org.com.db.pedido.Pedido;
+import org.com.db.pedido.GeraPedido;
 
 import java.math.BigDecimal;
-import java.time.LocalDateTime;
 
 public class TestPedido {
     public static void main(String[] args) {
-        Orcamento orcamento = new Orcamento(new BigDecimal(600), 4);
-        String client = "Foo";
-        LocalDateTime data = LocalDateTime.now();
+        String client = "foo";
+        BigDecimal valueOrcamento = new BigDecimal(600);
+        Integer quantity = 43;
 
-        Pedido pedido = new Pedido(client, data, orcamento);
+        GeraPedido geraPedido = new GeraPedido(client, valueOrcamento, quantity);
+        geraPedido.execute();
 
-        System.out.println("Salvar pedido no banco de dados");
-        System.out.println("Enviar email com dados do novo pedido");
     }
 }
