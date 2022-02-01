@@ -19,7 +19,7 @@ public abstract class SituacaoOrcamento {
         throw new DomainException("Não é possivel reprovar o orçamento");
     }
 
-    public void finalizado(Orcamento orcamento){
+    public void finalizar(Orcamento orcamento){
         throw new DomainException("Não é possivel finalizar o orçamento");
     }
 }

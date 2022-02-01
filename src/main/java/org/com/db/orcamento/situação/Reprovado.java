@@ -10,7 +10,7 @@ public class Reprovado extends SituacaoOrcamento{
     }
 
     @Override
-    public void finalizado(Orcamento orcamento) {
+    public void finalizar(Orcamento orcamento) {
         orcamento.setSituation(new Finalizado());
     }
 }

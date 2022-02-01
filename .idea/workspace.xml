@@ -6,11 +6,11 @@
   <component name="ChangeListManager">
     <list default="true" id="3b4f6ca9-4a5c-4a65-8367-0bf5fc5eb5fa" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/com/db/pedido/GeraPedido.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/com/db/pedido/GeraPedido.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/com/db/pedido/GeraPedidoHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/com/db/pedido/GeraPedidoHandler.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/com/db/pedido/acao/AcaoParaGerarPedido.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/com/db/pedido/acao/AcaoPedidoObserver.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/com/db/pedido/acao/EnviarEmailPedido.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/com/db/pedido/acao/EnviarEmailPedidoObserver.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/com/db/pedido/acao/SalvarPedidoNoBD.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/com/db/pedido/acao/SalvarPedidoNoBDObserver.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/org/com/db/orcamento/Orcamento.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/org/com/db/orcamento/Orcamento.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/org/com/db/orcamento/situação/Finalizado.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/org/com/db/orcamento/situação/Finalizado.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/com/db/orcamento/Orcamento.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/com/db/orcamento/Orcamento.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/com/db/orcamento/situação/Aprovado.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/com/db/orcamento/situação/Aprovado.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/com/db/orcamento/situação/Finalizado.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/com/db/orcamento/situação/Finalizado.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -62,6 +62,7 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="android.sdk.path" value="/opt/IDE/Android/Sdk" />
     <property name="last_directory_selection" value="$PROJECT_DIR$/src/main/java/org/com/db" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
@@ -85,7 +86,20 @@
       <recent name="org.com.db.imposto" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.TestPedido">
+  <component name="RunManager" selected="Application.TestAdapter">
+    <configuration name="TestAdapter" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.com.db.TestAdapter" />
+      <module name="design-patterns.main" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.com.db.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="TestDescontos" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="org.com.db.TestDescontos" />
       <module name="design-patterns.main" />
@@ -143,6 +157,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.TestAdapter" />
         <item itemvalue="Application.TestPedido" />
         <item itemvalue="Application.TestDescontos" />
         <item itemvalue="Application.TestImpostos" />
@@ -158,7 +173,8 @@
       <option name="presentableId" value="Default" />
       <updated>1643641161084</updated>
       <workItem from="1643641164982" duration="14463000" />
-      <workItem from="1643723791508" duration="5549000" />
+      <workItem from="1643723791508" duration="6187000" />
+      <workItem from="1643748616245" duration="1882000" />
     </task>
     <servers />
   </component>

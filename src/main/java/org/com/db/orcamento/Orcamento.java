@@ -1,7 +1,7 @@
 package org.com.db.orcamento;
 
-import org.com.db.orcamento.situação.Aprovado;
 import org.com.db.orcamento.situação.EmAnalise;
+import org.com.db.orcamento.situação.Finalizado;
 import org.com.db.orcamento.situação.SituacaoOrcamento;
 
 import java.math.BigDecimal;
@@ -47,7 +47,10 @@ public class Orcamento {
     }
 
     public void finalizar(){
-        this.situation.finalizado(this);
+        this.situation.finalizar(this);
     }
 
+    public boolean isFinalizado() {
+        return situation instanceof Finalizado;
+    }
 }

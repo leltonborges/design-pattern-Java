@@ -10,4 +10,8 @@ public class Aprovado extends SituacaoOrcamento{
         return orcamento.getValue().multiply(BigDecimal.valueOf(0.05));
     }
 
+    @Override
+    public void finalizar(Orcamento orcamento) {
+        orcamento.setSituation(new Finalizado());
+    }
 }
