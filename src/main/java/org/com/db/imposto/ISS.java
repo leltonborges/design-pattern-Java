@@ -4,9 +4,15 @@ import org.com.db.orcamento.Orcamento;
 
 import java.math.BigDecimal;
 
-public class ISS implements Imposto{
+public class ISS extends Imposto {
 
-    public BigDecimal calcular(Orcamento orcamento){
+    public ISS(Imposto imposto) {
+        super(imposto);
+    }
+
+    @Override
+    protected BigDecimal realizarCalculo(Orcamento orcamento) {
         return orcamento.getValue().multiply(BigDecimal.valueOf(0.06));
     }
+
 }
