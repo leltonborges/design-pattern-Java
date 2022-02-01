@@ -1,9 +1,14 @@
 package org.com.db.pedido;
 
 import org.com.db.orcamento.Orcamento;
+import org.com.db.pedido.acao.AcaoParaGerarPedido;
+import org.com.db.pedido.acao.EnviarEmailPedido;
+import org.com.db.pedido.acao.SalvarPedidoNoBD;
 
 import java.math.BigDecimal;
 import java.time.LocalDateTime;
+import java.util.Arrays;
+import java.util.List;
 
 public class GeraPedido {
     private String client;
@@ -16,13 +21,25 @@ public class GeraPedido {
         this.quantity = quantity;
     }
 
-    public void execute(){
-        Orcamento orcamento = new Orcamento(this.valueOrcamento, this.quantity);
-        String client = this.client;
-
-        Pedido pedido = new Pedido(client, LocalDateTime.now(), orcamento);
-
-        System.out.println("Salvar pedido no banco de dados");
-        System.out.println("Enviar email com dados do novo pedido");
+    public String getClient() {
+        return client;
     }
+
+    public BigDecimal getValueOrcamento() {
+        return valueOrcamento;
+    }
+
+    public int getQuantity() {
+        return quantity;
+    }
+
+    public void execute(){
+        GeraPedido geraPedido = new GeraPedido(this.getClient(), this.getValueOrcamento(), this.getQuantity());
+        GeraPedidoHandler geraPedidoHandler = new GeraPedidoHandler(
+                Arrays.asList(new SalvarPedidoNoBD(), new EnviarEmailPedido())
+        );
+        geraPedidoHandler.execute(geraPedido);
+    }
+
+
 }

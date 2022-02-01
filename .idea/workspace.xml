@@ -5,8 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="3b4f6ca9-4a5c-4a65-8367-0bf5fc5eb5fa" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/com/db/pedido/GeraPedido.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/com/db/pedido/GeraPedido.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/com/db/pedido/acao/EnviarEmailPedido.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/com/db/pedido/acao/EnviarEmailPedido.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/com/db/pedido/acao/SalvarPedidoNoBD.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/com/db/pedido/acao/SalvarPedidoNoBD.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -69,6 +71,7 @@
   </component>
   <component name="RecentsManager">
     <key name="CreateClassDialog.RecentsKey">
+      <recent name="org.com.db.pedido" />
       <recent name="org.com.db.orcamento.situação.exception" />
       <recent name="org.com.db.orcamento.situação" />
       <recent name="org.com.db.imposto" />
@@ -80,7 +83,7 @@
       <recent name="org.com.db.imposto" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.TestDescontos">
+  <component name="RunManager" selected="Application.TestPedido">
     <configuration name="TestDescontos" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="org.com.db.TestDescontos" />
       <module name="design-patterns.main" />
@@ -96,6 +99,19 @@
     </configuration>
     <configuration name="TestImpostos" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="org.com.db.TestImpostos" />
+      <module name="design-patterns.main" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.com.db.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TestPedido" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.com.db.TestPedido" />
       <module name="design-patterns.main" />
       <extension name="coverage">
         <pattern>
@@ -125,6 +141,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.TestPedido" />
         <item itemvalue="Application.TestDescontos" />
         <item itemvalue="Application.TestImpostos" />
       </list>
@@ -139,7 +156,7 @@
       <option name="presentableId" value="Default" />
       <updated>1643641161084</updated>
       <workItem from="1643641164982" duration="14463000" />
-      <workItem from="1643723791508" duration="1155000" />
+      <workItem from="1643723791508" duration="2814000" />
     </task>
     <servers />
   </component>
