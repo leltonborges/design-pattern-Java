@@ -5,8 +5,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="3b4f6ca9-4a5c-4a65-8367-0bf5fc5eb5fa" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.gradle/workspace-id.txt.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/workspace-id.txt.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/com/db/pedido/GeraPedidoHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/com/db/pedido/GeraPedidoHandler.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/org/com/db/TestComposicao.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/org/com/db/TestComposicao.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/org/com/db/orcamento/Orcamento.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/org/com/db/orcamento/Orcamento.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/com/db/TestComposicao.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/com/db/TestComposicao.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/com/db/orcamento/Orcamento.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/com/db/orcamento/Orcamento.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -82,7 +86,7 @@
       <recent name="org.com.db.imposto" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.TestPedido">
+  <component name="RunManager" selected="Application.TestComposicao">
     <configuration name="TestAdapter" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="org.com.db.TestAdapter" />
       <module name="design-patterns.main" />
@@ -164,6 +168,13 @@
       <option name="specificationPath" value="$PROJECT_DIR$/src/main/java/test.yaml" />
       <method v="2" />
     </configuration>
+    <list>
+      <item itemvalue="Application.TestAdapter" />
+      <item itemvalue="Application.TestComposicao" />
+      <item itemvalue="Application.TestDescontos" />
+      <item itemvalue="Application.TestImpostos2" />
+      <item itemvalue="Application.TestPedido" />
+    </list>
     <recent_temporary>
       <list>
         <item itemvalue="Application.TestComposicao" />
@@ -185,7 +196,7 @@
       <workItem from="1643641164982" duration="14463000" />
       <workItem from="1643723791508" duration="6187000" />
       <workItem from="1643748616245" duration="4364000" />
-      <workItem from="1643761767213" duration="2479000" />
+      <workItem from="1643761767213" duration="3855000" />
     </task>
     <servers />
   </component>
