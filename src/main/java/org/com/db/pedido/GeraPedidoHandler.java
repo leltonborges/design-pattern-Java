@@ -1,5 +1,6 @@
 package org.com.db.pedido;
 
+import org.com.db.orcamento.Item;
 import org.com.db.orcamento.Orcamento;
 import org.com.db.pedido.acao.AcaoPedidoObserver;
 
@@ -15,7 +16,8 @@ public class GeraPedidoHandler {
     }
 
     public void execute(GeraPedido dados){
-        Orcamento orcamento = new Orcamento(dados.getValueOrcamento(), dados.getQuantity());
+        Orcamento orcamento = new Orcamento();
+        orcamento.addItem(new Item(dados.getValueOrcamento()));
         String client = dados.getClient();
 
         Pedido pedido = new Pedido(client, LocalDateTime.now(), orcamento);
