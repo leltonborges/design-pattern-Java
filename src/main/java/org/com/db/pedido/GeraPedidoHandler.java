@@ -22,6 +22,6 @@ public class GeraPedidoHandler {
 
         Pedido pedido = new Pedido(client, LocalDateTime.now(), orcamento);
 
-        acoes.forEach(a -> a.executeAction(pedido));
+        acoes.parallelStream().forEach(a -> a.executeAction(pedido));
     }
 }

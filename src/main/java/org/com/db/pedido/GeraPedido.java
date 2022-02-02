@@ -1,6 +1,7 @@
 package org.com.db.pedido;
 
 import org.com.db.pedido.acao.EnviarEmailPedidoObserver;
+import org.com.db.pedido.acao.LogPedido;
 import org.com.db.pedido.acao.SalvarPedidoNoBDObserver;
 
 import java.math.BigDecimal;
@@ -32,7 +33,11 @@ public class GeraPedido {
     public void execute(){
         GeraPedido geraPedido = new GeraPedido(this.getClient(), this.getValueOrcamento(), this.getQuantity());
         GeraPedidoHandler geraPedidoHandler = new GeraPedidoHandler(
-                Arrays.asList(new SalvarPedidoNoBDObserver(), new EnviarEmailPedidoObserver())
+                Arrays.asList(
+                        new SalvarPedidoNoBDObserver(),
+                        new EnviarEmailPedidoObserver(),
+                        new LogPedido()
+                )
         );
         geraPedidoHandler.execute(geraPedido);
     }
